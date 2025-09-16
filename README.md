@@ -39,6 +39,8 @@ Borrando el archivo local...
 Script terminado. El archivo se ha movido exitosamente a HDFS.
 ```
 
+---
+
 ### HDFS Verification
 
 The final check confirms the `starwars.csv` file now resides in the `/ingest` directory of HDFS.
@@ -49,6 +51,8 @@ Found 2 items
 -rw-r--r--  1 hadoop supergroup      5462 2025-09-16 08:02 /ingest/starwars.csv
 -rw-r--r--  1 hadoop supergroup 125981363 2022-05-09 17:58 /ingest/yellow_tripdata_2021-01.csv
 ```
+
+---
 
 ### 📜 How to Use the Script
 

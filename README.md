@@ -37,6 +37,7 @@ Descargando el archivo starwars.csv al directorio /home/hadoop/landing...
 Enviando el archivo a HDFS en el directorio /ingest...
 Borrando el archivo local...
 Script terminado. El archivo se ha movido exitosamente a HDFS.
+```
 
 ### HDFS Verification
 
@@ -47,6 +48,7 @@ hadoop@9438ecee3c21:~/scripts$ hdfs dfs -ls /ingest
 Found 2 items
 -rw-r--r--  1 hadoop supergroup      5462 2025-09-16 08:02 /ingest/starwars.csv
 -rw-r--r--  1 hadoop supergroup 125981363 2022-05-09 17:58 /ingest/yellow_tripdata_2021-01.csv
+```
 
 ### 📜 How to Use the Script
 
